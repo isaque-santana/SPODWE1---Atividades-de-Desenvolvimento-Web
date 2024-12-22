@@ -1,0 +1,107 @@
+body{
+    background-color: #fafaff;
+    color: #30343f;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #30343f;
+}
+
+a:hover{
+    color: #273469;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #273469;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: #273469;
+    color: #fafaff;
+}
+
+h1{
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    color:#273469;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="text"]{
+    background-color: #e4d9ff;
+}
+form [type="email"]{
+    background-color: #e4d9ff;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #273469;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}

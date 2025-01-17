@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+     #textboxid
+{
+    height:200px;
+    width:400px;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  background: radial-gradient(#00A0FA, #004895);}
+
+.form {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-sizing: border-box;
+  height: 680px;
+  padding: 20px;
+  width: 500px;
+}
+.form__input {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: 0;
+  box-sizing: border-box;
+  color: #555555;
+  font-size: 14px;
+  outline: 0;
+  padding: 0 15px 0;
+}
+h1 {
+  color: #08d;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 10px;
+  height: 40px;
+  margin-top: 38px;
+  // outline: 0;
+  text-align: center;
+  width: 30%;
+}
+    </style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div>
+        <form action="" class="form">
+              <h1>Formulário de Contato</h1>
+              <p></p>
+              <input type="text" placeholder="Nome completo" class="form__input" id="name" />
+              <label for="name" class="form__label"></label>
+              <p>
+              <input type="text" placeholder="E-mail" class="form__input" id="email" />
+              <label for="email" class="form__label"></label>
+              <p>
+              <input type="text" placeholder="Telefone" class="form__input" id="telefone" />
+              <label for="telefone" class="form__label"></label>
+              </p>
+              <input type="text" placeholder="Mensagem" class="form__input" id="textboxid" />
+              <label for="telefone" class="form__label"></label>
+              <p>
+                <label for="horario" style="color: #555555;">Qual horário deseja ser contatado?</label>
+                 <select name="horario" id="horario">
+                 <option style="color: #555555;" value="manha">Manhã</option>
+                 <option style="color: #555555;" value="tarde">Tarde</option>
+                 <option style="color: #555555;" value="noite">Noite</option>
+                 </select>
+              </p>
+              <p style="color: #555555;">Desejo ser contatado por:</p>
+              <input type="checkbox" id="contato1" name="contato1" value="Email">
+              <label for="contato1" style="color: #555555;"> E-mail </label><br>
+              <input type="checkbox" id="contato2" name="contato2" value="Telefone">
+              <label for="contato2" style="color: #555555;"> Telefone</label><br>
+              <input type="checkbox" id="contato3" name="contato3" value="Whatsapp">
+              <label for="contato3" style="color: #555555;"> Whatsapp</label>
+              <p>
+                <button class="submit">Enviar</button>
+              </p>
+    </form>
+</div>
+</body>
+</html>
